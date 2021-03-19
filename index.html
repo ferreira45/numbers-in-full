@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Módulo 1</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
+</head>
+<body>
+  <div class="container">
+    <h1>Números por extenso</h1>
+    <form class="col s12">
+      <div class="row">
+        <div class="range-field col s12">
+          <label for="inputRange">Escolha um número entre 0 e 999:</label>
+          <input type="range" id="inputRange" min="0" max="999"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+            <label for="inputCurrentNumber">Número atual:</label>
+            <br><br>
+            <input disabled type="text" id="inputCurrentNumber"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <label for="inputNumberInFull">Número por extenso:</label>
+          <br><br>
+          <input disabled type="text" id="inputNumberInFull"/>
+        </div>
+      </div>
+    </div>
+    </form>
+  
+  <script src="./js/scripts.js"></script>
+  <script src="./js/materialize.js"></script>
+</body>
+</html>

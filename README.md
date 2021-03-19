@@ -1,1 +1,1 @@
-# numbers-in-full
+Projeto com finalidade de mostrar o uso de javascript para exibir números por extenso de acordo com a seleção do usuário.
